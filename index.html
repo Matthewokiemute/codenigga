@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Portfolio Website</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="description" content="Portfolio Website">
+
+    <!-- FAvicon -->
+    <!-- <link href="#" rel="shortcut icon" type="image/x-icon" /> -->
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="navigation w-nav">
+        <div class="navigation-items">
+            <a href="index.html" class="logo-link nav-brand">
+                <!-- <img src="../img/CodeNigga.png" width="104" alt="Logo" class="logo-image" /> -->
+                <p class="logo-image">CodeNigga🤨</p>
+            </a>
+            <div class="navigation-wrap">
+                <nav role="navigation" class="navigation-items">
+                    <a href="index.html" class="navigation-item nav-link">About</a>
+                    <a href="portfolio.html" class="navigation-item nav-link current">Portfolio</a>
+                    <a href="styleguide.html" class="navigation-item nav-link">Blog Posts</a>
+                </nav>
+                <div class="menu-button w-nav-button">
+                    <img src="" width="22" alt="" class="menu-icon" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section intro">
+        <div id="bouncyCircleX"></div>
+        <div class="container">
+            <div class="intro-wrap">
+                <div class="profile-pic-box"><img class="profile-pic" src="../img/myphoto.webp" alt="My profile picture"></div>
+                <div class="name-text">Matthew Okiemute</div>
+                <div class="paragraph-light">Software Developer</div>
+                <div class="paragraph-light">Host &mdash; <strong>😆 Tech Inspire Conference</strong></div>
+                <h1 class="heading-jumbo">Hey Dear! I’m a creative software developer, loves to connect and speak at events. </h1>
+                <div class="resume">
+                    <a href="./resume.pdf" download="./resume.pdf" class="visit-btn">Resume/CV</a>
+                    <a href="https://github.com/Matthewokiemute" class="visit-btn outline-btn">Github</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section">
+        <!-- <div id="works-grid" class="layout-grid works-grid">
+            <div id="node-1">
+                <div class="node-11">
+                    <img width="550px" height="auto" src="https://cdn.dribbble.com/users/11821604/screenshots/18693176/media/c95a654980d5744ffd5168e7eb425910.png" alt="" srcset="">
+                </div>
+                <div class="work-description">
+                    <a href="work/project-1.html" class="project-name-link">Project 1<br/></a>
+                    <div class="paragraph-light">Graphic Design</div>
+                </div>
+            </div>
+            <div id="node-2">
+                <a href="work/project-2.html" class="work-image cc-work-2 inline-block"></a>
+                <div class="work-description">
+                    <a href="work/project-2.html" class="project-name-link">Project 2</a>
+                    <div class="paragraph-light">Web Design</div>
+                </div>
+            </div>
+            <div id="node-3">
+                <a href="work/project-3" class="work-image cc-work-3 inline-block"></a>
+                <div class="work-description">
+                    <a href="work/project-3" class="project-name-link">Project 3</a>
+                    <div class="paragraph-light">Web Design</div>
+                </div>
+            </div>
+            <div id="node-4">
+                <a href="work/project-4.html" class="work-image cc-work-4 inline-block"></a>
+                <div class="work-description">
+                    <a href="work/project-4.html" class="project-name-link">Project 4</a>
+                    <div class="paragraph-light">Graphic Design</div>
+                </div>
+            </div>
+        </div> -->
+        <div class="container">
+            <div class="career-headline-wrap">
+                <h2>My experience</h2>
+                <p class="paragraph-light">
+                    Over the past 3years, I have worked with exciting firms and clients to build great web apps meeting customers needs. I work with
+                    <strong>JavaScript</strong>,
+                    <strong>TypeScript</strong>,
+                    <strong>ReactJs</strong>,
+                    <strong>ExpressJs</strong>,
+                    <strong>NodeJs</strong>, and
+                    <strong>MongoDB</strong>. And still ready to work on your great project!
+                </p>
+            </div>
+            <div class="layout-grid work-experience-grid">
+                <div id="node-5" class="work-position-wrap">
+                    <div class="position-name-text">MaroltHQ</div>
+                    <div class="paragraph-light cc-position-name">Frontend Developer</div>
+                    <div class="paragraph-tiny cc-paragraph-tiny-light">June 2022 — Present<br/></div>
+                    <div class="visit"><a href="https://www.marolthq.com" class="visit-btn">Visit</a></div>
+                </div>
+                <div id="node-6" class="work-position-wrap">
+                    <div class="position-name-text">Justdeal.ng(startup)</div>
+                    <div class="paragraph-light cc-position-name">Frontend Developer</div>
+                    <div class="paragraph-tiny cc-paragraph-tiny-light">December 2021 — Present<br/></div>
+                    <div class="visit"><a href="https://www.justdeal.ng" class="visit-btn">Visit</a></div>
+                </div>
+                <div id="node-7" class="work-position-wrap">
+                    <div class="position-name-text">JAUIT Program</div>
+                    <div class="paragraph-light cc-position-name">Instructor</div>
+                    <div class="paragraph-tiny cc-paragraph-tiny-light">March 2023 — Sept 2023<br/></div>
+                    <div class="visit"><a href="https://www.jauit.com" class="visit-btn">Visit</a></div>
+                </div>
+                <div id="node-8" class="work-position-wrap">
+                    <div class="position-name-text">Tech Inspire😍 Conference</div>
+                    <div class="paragraph-light cc-position-name">Host</div>
+                    <div class="paragraph-tiny cc-paragraph-tiny-light">Aug 2019 — present<br/></div>
+                    <div class="visit"><a href="https://www.techinspired.io" class="visit-btn">Visit</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section portfolio">
+        <div class="container">
+            <div id="bouncyCircleY"></div>
+            <div class="contact-headline">
+                <h3>
+                    Projects I've worked on!
+                </h3>
+                <p class="paragraph-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, repellendus!</p>
+            </div>
+            <div class="layout-grid social-media-grid">
+                <img src="img/work-img.svg" id="w-node-8239d41d1e9d-dfddbee0" alt="" />
+                <img src="img/work-img.svg" id="w-node-8239d41d1e9e-dfddbee0" alt="" />
+                <img src="img/work-img.svg" id="w-node-8239d41d1e9f-dfddbee0" alt="" />
+                <img src="img/work-img.svg" id="w-node-8239d41d1ea0-dfddbee0" alt="" />
+                <img src="img/work-img.svg" id="w-node-8239d41d1ea1-dfddbee0" alt="" />
+                <img src="img/work-img.svg" id="w-node-8239d41d1ea2-dfddbee0" alt="" />
+                <img src="img/work-img.svg" id="w-node-8239d41d1ea3-dfddbee0" alt="" />
+                <img src="img/work-img.svg" id="w-node-8239d41d1ea4-dfddbee0" alt="" />
+            </div>
+        </div>
+    </div>
+
+    <div class="section cc-contact">
+        <div class="container">
+            <div class="contact">
+                <div class="contact-headline">
+                    <h3>Want to get in touch? <br/>Drop me a line!</h3>
+                    <p class="paragraph-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                </div>
+                <div class="contact-form-wrap">
+                    <div class="form">
+                        <form onsubmit="sendEmail();  reset(); return false;" id="form-Email-Form" name="form-Email-Form" data-name="Email Form" class="contact-form">
+                            <span id="error-msg"></span>
+                            <div class="layout-grid contact-form-grid">
+                                <div id="node-9">
+                                    <label for="Name-3">Name</label>
+                                    <input type="text" class="text-field input input-name" maxlength="256" name="Name" data-name="Name" placeholder="Enter your name" id="Name" />
+                                </div>
+                                <div id="node-10">
+                                    <label for="Email-3">Email Address</label>
+                                    <input type="email" class="text-field input input-email" maxlength="256" name="Email" data-name="Email" placeholder="Enter your email" id="Email" />
+                                </div>
+                                <div id="-node-11">
+                                    <label for="Message">Form Label</label>
+                                    <textarea id="Message" name="Message" placeholder="Enter your message" maxlength="5000" data-name="Message" class="text-field cc-textarea input input-message"></textarea>
+                                </div>
+                            </div>
+                            <input type="submit" value="Submit" data-wait="Please wait..." class="button s-button" />
+                        </form>
+                        <div class="status-message cc-success-message form-done">
+                            <div>Thank you! Your submission has been received!</div>
+                        </div>
+                        <!-- <div class="status-message cc-error-message form-fail">
+                            <div>Oops! Something went wrong while submitting the form.</div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-wrap">
+        <div>
+            <a href="#" target="_blank" class="codenigga-link inline-block">
+                <img src="#" width="15" alt="" class="logo-tiny" />
+                <div class="paragraph-tiny">Powered by CodeNigga</div>
+            </a>
+        </div>
+        <div class="datebox">
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+        </div>
+        <div class="footer-links">
+            <a href="https://www.facebook.com/" target="_blank" class="footer-item">Facebook</a>
+            <a href="https://twitter.com/" target="_blank" class="footer-item">Twitter</a>
+            <a href="https://www.instagram.com/" target="_blank" class="footer-item">Instagram</a>
+        </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.yourisp.com",
+                Username: "username",
+                Password: "password",
+                To: 'them@website.com',
+                From: "you@isp.com",
+                Subject: "This is the subject",
+                Body: "And this is the body"
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
+</body>
+
+</html>
