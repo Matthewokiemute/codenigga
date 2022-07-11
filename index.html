@@ -161,20 +161,20 @@
                 </div>
                 <div class="contact-form-wrap">
                     <div class="form">
-                        <form onsubmit="sendEmail();  reset(); return false;" id="form-Email-Form" name="form-Email-Form" data-name="Email Form" class="contact-form">
+                        <form name="contact" method="POST" data-netlify="true" class="contact-form">
                             <span id="error-msg"></span>
                             <div class="layout-grid contact-form-grid">
                                 <div id="node-9">
                                     <label for="Name-3">Name</label>
-                                    <input type="text" class="text-field input input-name" maxlength="256" name="Name" data-name="Name" placeholder="Enter your name" id="Name" />
+                                    <input type="text" class="text-field input input-name" maxlength="256" name="name" data-name="Name" placeholder="Enter your name" id="Name" />
                                 </div>
                                 <div id="node-10">
                                     <label for="Email-3">Email Address</label>
-                                    <input type="email" class="text-field input input-email" maxlength="256" name="Email" data-name="Email" placeholder="Enter your email" id="Email" />
+                                    <input type="email" class="text-field input input-email" maxlength="256" name="email" data-name="Email" placeholder="Enter your email" id="Email" />
                                 </div>
                                 <div id="-node-11">
                                     <label for="Message">Form Label</label>
-                                    <textarea id="Message" name="Message" placeholder="Enter your message" maxlength="5000" data-name="Message" class="text-field cc-textarea input input-message"></textarea>
+                                    <textarea id="Message" name="message" placeholder="Enter your message" maxlength="5000" data-name="Message" class="text-field cc-textarea input input-message"></textarea>
                                 </div>
                             </div>
                             <input type="submit" value="Submit" data-wait="Please wait..." class="button s-button" />
